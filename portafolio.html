@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Proyectos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+ <!--
+Esta página utiliza HTML5 y Bootstrap para presentar los proyectos.
+nav: contiene la navegación entre las páginas del sitio.
+main: contiene el contenido principal del portafolio.
+Las tarjetas de Bootstrap organizan los proyectos de forma responsiva.
+Los enlaces "Leer más" permiten acceder al detalle de cada proyecto.
+-->   
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Mi Portafolio</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#menuNavegacion" aria-controls="menuNavegacion"
+            aria-expanded="false" aria-label="Abrir menú">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuNavegacion">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="portafolio.html">Portafolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>    
+    
+<main class="container py-5">
+    <div class="text-center mb-5">
+        <h1>Mis Proyectos</h1>
+        <p>Estos son algunos proyectos que representan mi aprendizaje en desarrollo web.</p>
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title h4">Página Web Básica</h2>
+                    <p class="card-text">
+                        Proyecto creado utilizando HTML para organizar el contenido
+                        y presentar una página web sencilla.
+                    </p>
+                    <a href="Pagina Web Basica/index.html" class="btn btn-primary">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title h4">Página con CSS</h2>
+                    <p class="card-text">
+                        Proyecto donde utilicé CSS para personalizar colores,
+                        tamaños, espacios y otros elementos visuales.
+                    </p>
+                    <a href="pagina con css/index.html" class="btn btn-success">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title h4">Página Responsiva</h2>
+                    <p class="card-text">
+                        Proyecto creado con HTML, CSS y Bootstrap para adaptar
+                        el contenido a diferentes tamaños de pantalla.
+                    </p>
+                    <a href="Pagina Con Bootstrap/index.html" class="btn btn-warning">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p>&copy; 2023 Mi Portafolio. Todos los derechos reservados.</p>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

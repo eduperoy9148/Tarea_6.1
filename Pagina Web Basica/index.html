@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página HTML5</title>
+<link rel="stylesheet" href="estilos.css">    
+</head>
+
+<body>
+
+    <!-- Encabezado principal de la página -->
+    <header>
+        <h1>Mi Primera Página Web</h1>
+        <p>Práctica de HTML y HTML5</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a> |
+        <a href="#html">HTML</a> |
+        <a href="#html5">HTML5</a> |
+        <a href="#multimedia">Multimedia</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Primera sección -->
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+
+            <p>
+                Esta página fue creada como práctica para aprender la estructura
+                básica de HTML, sus elementos, atributos y algunas de las nuevas
+                funciones disponibles en HTML5.
+            </p>
+        </section>
+
+        <!-- Artículo sobre HTML -->
+        <article id="html">
+
+            <h2>¿Qué es HTML?</h2>
+
+            <p>
+                HTML es el lenguaje utilizado para crear y organizar el contenido
+                de una página web. Por medio de diferentes etiquetas podemos
+                agregar títulos, párrafos, enlaces, imágenes, listas y otros
+                elementos.
+            </p>
+
+            <h3>Algunos elementos de HTML</h3>
+
+            <ul>
+                <li>Encabezados</li>
+                <li>Párrafos</li>
+                <li>Listas</li>
+                <li>Enlaces</li>
+                <li>Imágenes</li>
+            </ul>
+
+            <p>
+                Para aprender más sobre HTML puedes visitar
+                <a href="https://www.w3schools.com/html/" target="_blank">
+                    W3Schools
+                </a>.
+            </p>
+
+        </article>
+
+        <!-- Sección sobre HTML5 -->
+        <section id="html5">
+
+            <h2>HTML5</h2>
+
+            <p>
+                HTML5 permite crear páginas web con una estructura más organizada
+                y ofrece nuevos elementos para trabajar con contenido multimedia.
+            </p>
+
+            <!--
+                Una ventaja de HTML5 es que utiliza etiquetas semánticas como
+                header, nav, main, section, article y footer.
+
+                Estas etiquetas ayudan a organizar mejor el contenido y hacen
+                que el código sea más fácil de entender.
+
+                Otra ventaja es que HTML5 permite utilizar video y audio
+                directamente en el navegador sin depender de programas externos.
+            -->
+
+            <h3>Ventajas de HTML5</h3>
+
+            <ol>
+                <li>Permite organizar mejor la estructura de una página.</li>
+                <li>Incluye soporte para audio y video.</li>
+                <li>Facilita la creación de páginas modernas.</li>
+                <li>Es compatible con los navegadores actuales.</li>
+            </ol>
+
+        </section>
+
+        <!-- Sección multimedia -->
+        <section id="multimedia">
+
+            <h2>Elementos Multimedia de HTML5</h2>
+
+            <h3>Video</h3>
+
+            <video width="400" controls>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no permite reproducir este video.
+            </video>
+
+            <h3>Audio</h3>
+
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Tu navegador no permite reproducir este audio.
+            </audio>
+
+            <h3>Figura</h3>
+
+            <figure>
+                <img src="imagenes/wp10728201-lenovo-car-wallpapers.jpg"
+                     alt="Ejemplo de imagen utilizada en HTML5"
+                     width="300">
+
+                <figcaption>
+                    Ejemplo del elemento figure y figcaption en HTML5.
+                </figcaption>
+            </figure>
+
+            <h3>Canvas</h3>
+
+            <canvas id="miCanvas"
+                    width="400"
+                    height="150"
+                    style="border:1px solid black;">
+
+                Tu navegador no soporta el elemento canvas.
+
+            </canvas>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+
+        <p>
+            Página creada como práctica de HTML5.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

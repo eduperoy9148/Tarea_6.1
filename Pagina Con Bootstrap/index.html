@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- HEAD: contiene información de la página, Bootstrap y el archivo CSS -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DupeTec | Inicio</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- CSS personalizado -->
+<link rel="stylesheet" href="css/estilos.css">    
+</head>
+<!-- BODY: contiene todo el contenido visible de la página web -->
+<body>
+<!--
+Estructura principal de HTML5:
+header: representa el encabezado de la página.
+nav: contiene el menú de navegación.
+main: contiene el contenido principal.
+section: organiza el contenido en diferentes secciones.
+footer: representa el pie de página.
+-->
+
+<!-- NAV: contiene el menú de navegación entre las páginas del sitio --> 
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">DupeTec</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
+            aria-expanded="false" aria-label="Abrir menú">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- SECTION: organiza la sección principal de bienvenida de la página --> 
+<section id="inicio" class="bg-light py-5">
+    <div class="container text-center py-5">
+        <h1 class="display-4 fw-bold">Bienvenidos a DupeTec</h1>
+
+        <p class="lead">
+            Soluciones tecnológicas para ti y tu negocio.
+        </p>
+
+        <a href="servicios.html" class="btn btn-primary btn-lg">
+            Ver nuestros servicios
+        </a>
+    </div>
+</section>
+
+<!-- SECTION: organiza el contenido relacionado con los servicios --> 
+<section class="container my-5">
+    <h2 class="text-center mb-4">Nuestros Servicios</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Desarrollo Web</h3>
+                    <p class="card-text">
+                        Creamos páginas web sencillas, modernas y adaptadas a diferentes dispositivos.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Soporte Técnico</h3>
+                    <p class="card-text">
+                        Ofrecemos ayuda con computadoras, programas y problemas tecnológicos básicos.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Mantenimiento</h3>
+                    <p class="card-text">
+                        Brindamos mantenimiento para ayudar a mantener tus equipos y sistemas funcionando correctamente.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER: contiene la información final y el pie de página del sitio --> 
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p class="mb-0">&copy; 2026 DupeTec | Soluciones Tecnológicas</p>
+    </div>
+</footer>
+
+<!-- JavaScript de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

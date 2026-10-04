@@ -1,0 +1,124 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #51e0e0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Estilo del menú de navegación */
+nav {
+    background-color: #333333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo del contenido principal */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Selector de ID para la sección de inicio */
+#inicio {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Selector de clase y aplicación del modelo de caja */
+.tarjeta {
+    background-color: white;
+    border: 2px solid #dddddd;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+/* Estilo para las secciones Acerca de y Contacto */
+#acerca,
+#contacto {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Diseño responsivo para pantallas pequeñas */
+@media (max-width: 600px) {
+    header {
+        padding: 20px 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 8px 0;
+    }
+
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .tarjeta {
+        padding: 15px;
+    }
+}
+
+/* Estilo de la imagen principal */
+.imagen-principal {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Estilo del video */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}

@@ -1,0 +1,11 @@
+Tarea 6.1 - Creación de una página web responsiva con Bootstrap, CSS y JavaScript
+
+En esta tarea utilicé mi sitio web tipo portafolio creado con HTML5, CSS y Bootstrap, y añadí JavaScript para practicar nuevos conceptos de programación.
+
+En el archivo JavaScript trabajé con variables, diferentes tipos de datos, arreglos y objetos. También utilicé estructuras condicionales como if, else if y else.
+
+Practiqué los bucles for, while y do...while, además de crear y probar funciones. También realicé ejemplos sencillos para demostrar el alcance de las variables (scope) y las clausuras (closures).
+
+Finalmente, probé el código utilizando la consola del navegador para verificar los resultados y experimentar con la lógica del programa.
+
+Repositorio de GitHub:

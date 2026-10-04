@@ -1,0 +1,29 @@
+/* Selector de elemento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Selector de ID */
+#inicio {
+    background-image: url("../imagenes/bg.hex.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    color: white;
+}
+
+/* Selector de clase y modelo de caja */
+.card {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Efecto sobre las tarjetas */
+.card:hover {
+    transform: translateY(-5px);
+}
