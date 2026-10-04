@@ -9,3 +9,4 @@ Practiqué los bucles for, while y do...while, además de crear y probar funcion
 Finalmente, probé el código utilizando la consola del navegador para verificar los resultados y experimentar con la lógica del programa.
 
 Repositorio de GitHub:
+https://github.com/eduperoy9148/Tarea_6.1
